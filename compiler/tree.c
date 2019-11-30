@@ -2142,7 +2142,7 @@ void tree_node::setnodetype(TREE_NODE_TYPE nt) {
 	    }
 
 	tree_id::tree_id(){
-	name=NULL;next=NULL;stable=NULL;decltype=NULL;dtype=-1;stype=-1;ctype=-1;idrhs=NULL;arr_list=NULL;rhs=NULL;procdef=NULL;ptrfun=0;dirdecl=NULL;}
+	name=NULL;next=NULL;stable=NULL;decltype1=NULL;dtype=-1;stype=-1;ctype=-1;idrhs=NULL;arr_list=NULL;rhs=NULL;procdef=NULL;ptrfun=0;dirdecl=NULL;}
 	char *tree_id::getname(){
 	return name;
 	}

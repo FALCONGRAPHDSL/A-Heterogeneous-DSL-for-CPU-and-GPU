@@ -167,7 +167,7 @@ tree_id *next;
 tree_expr *rhs;
 dir_decl *dirdecl;
 class symtable *stable;
-class tree_typedecl *decltype;
+class tree_typedecl *decltype1;
 DATATYPE  dtype;
 STORAGETYPE stype;
 COMPOUNDTYPE ctype;
@@ -235,7 +235,7 @@ int ptrflag;//valid if ptr
 int ptrcnt;//how many pointers
 class symtable *stable;//pointer to symtable
 class libsymtable *libstable;//pointer to libsymtable, for library datatype
-class tree_typedecl *decltype;
+class tree_typedecl *decltype1;
 DATATYPE  dtype;//datatype of variable
 LIBDATATYPE  libdtype;//lib dataype of variable
 STORAGETYPE stype;//storage class extren ,auto etc

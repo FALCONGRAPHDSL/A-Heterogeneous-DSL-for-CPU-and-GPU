@@ -1184,7 +1184,7 @@ head->dtype=type1->datatype;
 head->tp1=type1;
 head->libdtype=type1->libdatatype;
 head->stype=type->storagetype;
-head->decltype=type1;
+head->decltype1=type1;
 head=head->nextv;
 }
 
@@ -1487,7 +1487,7 @@ head->tp1=type1;
 head->stype=type->storagetype;
 head->libstable=currsymtab->libsym;
 head->ppts=type1->ppts;
-head->decltype=type1;
+head->decltype1=type1;
 head=head->nextv;
 }
 struct extra_ppts *ep=type1->ppts;

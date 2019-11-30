@@ -934,7 +934,7 @@ tt->dirrhs->parent=tt->next->dirrhs;
 tt->dirrhs->forit=1;
 }
 if(tt->lhs->libdatatype==SET_TYPE){
-tree_typedecl *de2=ta->rhs->lhs->decltype;
+tree_typedecl *de2=ta->rhs->lhs->decltype1;
 while(de2!=NULL && de2->next!=NULL){
 de2=de2->next;
 }
